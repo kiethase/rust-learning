@@ -63,6 +63,7 @@ fn main() {
 // Use the T to define  Type for value so that use can compare them to get largest value 
 fn fun_get_largest_type<T: PartialOrd + Copy> (number_list: Vec<T>) -> T {
     let mut largest_number = number_list[0];
+    let a = String::new();
     //Loop create to find largest
     for number in number_list{
         if number > largest_number {
